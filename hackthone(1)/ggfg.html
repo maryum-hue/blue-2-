@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+   <style>
+    /* Reset and general styles */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Banner */
+.img-bg {
+  background-image: url("lovepik-happy-shopping-girls-picture_501161898.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  border-radius: 14px;
+}
+
+/* Text in Banner */
+.img-bg h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.img-bg p {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+/* Secondary Navigation Icons */
+.img-control {
+  height: 70px;
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.img-control:hover {  transform: scale(1.1); /* Slight hover effect */
+}
+
+/* Navigation container */
+.my {
+  background-color: rgb(202, 189, 42);
+  padding: 15px 0;
+  border-radius: 8px;
+}
+
+   </style>
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                Open Menu
+            </a>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title">Offcanvas Menu</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <p>Some placeholder content. Add your own text, images, or lists here.</p>
+                    <div class="dropdown mt-3">
+                        <button class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">Dropdown</button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <a class="navbar-brand" href="#">
+                <img src="HGH.png" alt="Logo" width="30" height="24">
+                Bootstrap
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Section -->
+    <div class="container img-bg d-flex align-items-center justify-content-center text-center text-light">
+        <div>
+            <h1>Hi, It's Sale Today!</h1>
+            <p>Time for shopping. Grab your favorites now.</p>
+            <button class="btn btn-secondary">SHOP NOW</button>
+        </div>
+    </div>
+
+    <!-- Secondary Navigation -->
+    <div class="container my-5">
+        <div class="d-flex justify-content-center flex-wrap gap-3">
+            <a href="#"><img src="download__1_-removebg-preview.png" alt="Icon 1" class="img-control"></a>
+            <a href="#"><img src="download__2_-removebg-preview.png" alt="Icon 2" class="img-control"></a>
+            <a href="#"><img src="download__3_-removebg-preview.png" alt="Icon 3" class="img-control"></a>
+            <a href="#"><img src="download__1_-removebg-preview.png" alt="Icon 4" class="img-control"></a>
+            <a href="#"><img src="download__2_-removebg-preview.png" alt="Icon 5" class="img-control"></a>
+            <a href="#"><img src="download__3_-removebg-preview.png" alt="Icon 6" class="img-control"></a>
+        </div>
+    </div>
+</body>
+</html>

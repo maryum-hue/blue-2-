@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.img-bg {
+  background-image: url("lovepik-happy-shopping-girls-picture_501161898.jpg"); /* Ensure the path is correct */
+  background-size: cover; /* Adjusts the image to cover the entire container */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  border-radius: 14px;
+}
+.txt {
+  color: white;
+  align-items: center;
+  display: flex;
+  font-weight: 900;
+}
+.txt-left {
+  color: white;
+}
+
+.img-control {
+  height: 70px;
+  width: auto;
+  margin-left: 45px;
+  align-items: center;
+  justify-content: center;
+}
+.my {
+  display: flex;
+  gap: 20px;
+  background-color: rgb(202, 189, 42);
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0px;
+}
+.center-center{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
